@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>S&amp;K Assembly and Renovations | Quality </title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0E4766",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-[#0d141b] dark:text-slate-200 font-display antialiased">
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 border-b border-[#e7edf3] bg-white dark:bg-[#1a2632] px-4 py-3 shadow-sm">
+        <div class="mx-auto flex max-w-[960px] items-center justify-between gap-4">
+            <div class="flex items-center gap-2">
+                <div class="flex size-8 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                    <span class="material-symbols-outlined">construction</span>
+                </div>
+                <h1 class="text-lg font-bold tracking-tight text-[#0d141b] dark:text-white">S&amp;K Assembly</h1>
+            </div>
+            <div class="hidden items-center gap-8 md:flex">
+                <a class="text-sm font-medium hover:text-primary transition-colors text-[#0d141b] dark:text-slate-300"
+                    href="#services">Services</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors text-[#0d141b] dark:text-slate-300"
+                    href="#reviews">Reviews</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors text-[#0d141b] dark:text-slate-300"
+                    href="#contact">Contact</a>
+            </div>
+            <div class="flex items-center gap-4">
+                <a class="hidden text-sm font-bold text-[#0d141b] dark:text-white md:block" href="tel:7737060536">(773)
+                    706-0536</a>
+                <a class="flex h-10 cursor-pointer items-center justify-center rounded-lg bg-primary px-4 text-sm font-bold text-white transition-colors hover:bg-primary/90"
+                    href="#quote">
+                    Get a Free Estimate
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <header class="relative overflow-hidden bg-background-light dark:bg-background-dark py-12 md:py-20">
+        <div class="mx-auto max-w-[960px] px-4">
+            <div class="flex flex-col gap-8 md:flex-row md:items-center md:gap-12">
+                <div class="flex flex-1 flex-col gap-6">
+                    <div
+                        class="inline-flex w-fit items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-bold uppercase tracking-wide text-primary">
+                        <span class="material-symbols-outlined text-[16px]">verified</span>
+                        Top Rated in Chicago
+                    </div>
+                    <h1
+                        class="text-4xl font-black leading-tight tracking-tight text-[#0d141b] dark:text-white sm:text-5xl lg:text-6xl">
+                        Quality Remodeling <span class="text-primary">in Chicago</span>
+                    </h1>
+                    <p class="text-lg font-normal leading-relaxed text-[#4c739a] dark:text-slate-400">
+                        Expert assembly, renovations, and home improvements. Rated 4.8/5 by your neighbors for
+                        reliability and craftsmanship.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a class="flex h-12 min-w-[160px] items-center justify-center rounded-lg bg-primary px-6 text-base font-bold text-white shadow-lg shadow-primary/20 transition-all hover:-translate-y-0.5 hover:shadow-xl"
+                            href="#quote">
+                            Get a Free Estimate
+                        </a>
+                        <a class="flex h-12 min-w-[160px] items-center justify-center rounded-lg border border-[#cfdbe7] bg-white px-6 text-base font-bold text-[#0d141b] transition-colors hover:bg-slate-50 dark:bg-[#1a2632] dark:border-slate-700 dark:text-white dark:hover:bg-[#23303d]"
+                            href="tel:7737060536">
+                            <span class="material-symbols-outlined mr-2 text-primary">call</span>
+                            (773) 706-0536
+                        </a>
+                    </div>
+                    <div class="mt-4 flex items-center gap-2">
+                        <div class="flex text-[#FFB400]">
+                            <span class="material-symbols-outlined text-[20px] font-variation-[FILL:1]">star</span>
+                            <span class="material-symbols-outlined text-[20px] font-variation-[FILL:1]">star</span>
+                            <span class="material-symbols-outlined text-[20px] font-variation-[FILL:1]">star</span>
+                            <span class="material-symbols-outlined text-[20px] font-variation-[FILL:1]">star</span>
+                            <span class="material-symbols-outlined text-[20px] font-variation-[FILL:1]">star</span>
+                        </div>
+                        <span class="text-sm font-medium text-[#0d141b] dark:text-slate-300">
+                            <strong>4.8/5</strong> based on <strong>24 reviews</strong>
+                        </span>
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <div class="aspect-[4/3] w-full overflow-hidden rounded-xl bg-slate-200 shadow-2xl md:aspect-square"
+                        data-alt="Modern kitchen interior renovation with sleek cabinetry and lighting"
+                        style="background-image: url('img/first.jpg'); background-size: cover; background-position: center;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Services Section -->
+    <section class="py-16 bg-white dark:bg-[#1a2632]" id="services">
+        <div class="mx-auto max-w-[960px] px-4">
+            <div class="mb-12 flex flex-col gap-4 text-center">
+                <h2 class="text-3xl font-bold tracking-tight text-[#0d141b] dark:text-white sm:text-4xl">Our Services
+                </h2>
+                <p class="mx-auto max-w-[600px] text-lg text-[#4c739a] dark:text-slate-400">We provide high-quality
+                    craftsmanship for all your home improvement needs.</p>
+            </div>
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-3">
+                <!-- Service 1 -->
+                <div
+                    class="group flex flex-col rounded-xl border border-[#e7edf3] bg-background-light p-6 transition-all hover:border-primary/50 hover:shadow-lg dark:bg-[#131b23] dark:border-slate-800">
+                    <div
+                        class="mb-4 flex size-12 items-center justify-center rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                        <span class="material-symbols-outlined">handyman</span>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold text-[#0d141b] dark:text-white">Home Renovation</h3>
+                    <p class="text-sm leading-relaxed text-[#4c739a] dark:text-slate-400">Full-service remodeling for
+                        kitchens, bathrooms, and basements. We handle everything from demolition to the final coat of
+                        paint.</p>
+                </div>
+                <!-- Service 2 -->
+                <div
+                    class="group flex flex-col rounded-xl border border-[#e7edf3] bg-background-light p-6 transition-all hover:border-primary/50 hover:shadow-lg dark:bg-[#131b23] dark:border-slate-800">
+                    <div
+                        class="mb-4 flex size-12 items-center justify-center rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                        <span class="material-symbols-outlined">chair</span>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold text-[#0d141b] dark:text-white">Furniture Assembly</h3>
+                    <p class="text-sm leading-relaxed text-[#4c739a] dark:text-slate-400">Professional assembly for
+                        IKEA, Wayfair, and custom furniture. Save yourself the headache and let us build it for you.</p>
+                </div>
+                <!-- Service 3 -->
+                <div
+                    class="group flex flex-col rounded-xl border border-[#e7edf3] bg-background-light p-6 transition-all hover:border-primary/50 hover:shadow-lg dark:bg-[#131b23] dark:border-slate-800">
+                    <div
+                        class="mb-4 flex size-12 items-center justify-center rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                        <span class="material-symbols-outlined">build</span>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold text-[#0d141b] dark:text-white">General Repairs</h3>
+                    <p class="text-sm leading-relaxed text-[#4c739a] dark:text-slate-400">Reliable handyman services for
+                        all those odd jobs around the house. From mounting TVs to fixing drywall.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose Us -->
+    <section class="py-16 bg-background-light dark:bg-background-dark">
+        <div class="mx-auto max-w-[960px] px-4">
+            <div class="grid gap-12 md:grid-cols-2 md:items-center">
+                <div class="order-2 md:order-1">
+                    <div class="h-[400px] w-full overflow-hidden rounded-xl bg-slate-200 shadow-lg"
+                        data-alt="Worker measuring wood board with precision tools"
+                        style="background-image: url('img/sec.jpg'); background-size: cover; background-position: center;">
+                    </div>
+                </div>
+                <div class="order-1 flex flex-col gap-6 md:order-2">
+                    <h2 class="text-3xl font-bold tracking-tight text-[#0d141b] dark:text-white">Why Choose S&amp;K?
+                    </h2>
+                    <p class="text-lg text-[#4c739a] dark:text-slate-400">We take pride in our work and treat every home
+                        like it's our own. Here is why Chicago homeowners trust us.</p>
+                    <ul class="flex flex-col gap-4">
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined mt-0.5 text-primary">check_circle</span>
+                            <div>
+                                <h4 class="font-bold text-[#0d141b] dark:text-white">Local Chicago Experts</h4>
+                                <p class="text-sm text-[#4c739a] dark:text-slate-400">We are based in the heart of
+                                    Chicago and know the local building styles.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined mt-0.5 text-primary">check_circle</span>
+                            <div>
+                                <h4 class="font-bold text-[#0d141b] dark:text-white">Licensed &amp; Insured</h4>
+                                <p class="text-sm text-[#4c739a] dark:text-slate-400">Peace of mind knowing your
+                                    property is protected during every project.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined mt-0.5 text-primary">check_circle</span>
+                            <div>
+                                <h4 class="font-bold text-[#0d141b] dark:text-white">4.8-Star Rated</h4>
+                                <p class="text-sm text-[#4c739a] dark:text-slate-400">Our 24+ reviews speak for
+                                    themselves. We aim for 100% satisfaction.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Reviews Section -->
+    <section class="py-16 bg-white dark:bg-[#1a2632]" id="reviews">
+        <div class="mx-auto max-w-[960px] px-4">
+            <div class="mb-12 flex flex-col items-center gap-4 text-center">
+                <h2 class="text-3xl font-bold tracking-tight text-[#0d141b] dark:text-white sm:text-4xl">What Our
+                    Clients Say</h2>
+                <!-- Rating Summary from Component List -->
+                <div class="flex items-center gap-2 rounded-lg bg-background-light px-4 py-2 dark:bg-[#131b23]">
+                    <span class="text-xl font-black text-[#0d141b] dark:text-white">4.8</span>
+                    <div class="flex text-[#FFB400]">
+                        <span class="material-symbols-outlined text-[20px] font-variation-[FILL:1]">star</span>
+                        <span class="material-symbols-outlined text-[20px] font-variation-[FILL:1]">star</span>
+                        <span class="material-symbols-outlined text-[20px] font-variation-[FILL:1]">star</span>
+                        <span class="material-symbols-outlined text-[20px] font-variation-[FILL:1]">star</span>
+                        <span class="material-symbols-outlined text-[20px] font-variation-[FILL:1]">star_half</span>
+                    </div>
+                    <span class="text-sm font-medium text-[#4c739a] dark:text-slate-400">(24 Reviews)</span>
+                </div>
+            </div>
+            <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <!-- Review 1 -->
+                <div class="rounded-xl bg-background-light p-6 dark:bg-[#131b23]">
+                    <div class="mb-3 flex text-[#FFB400]">
+                        <span class="material-symbols-outlined text-[18px] font-variation-[FILL:1]">star</span>
+                        <span class="material-symbols-outlined text-[18px] font-variation-[FILL:1]">star</span>
+                        <span class="material-symbols-outlined text-[18px] font-variation-[FILL:1]">star</span>
+                        <span class="material-symbols-outlined text-[18px] font-variation-[FILL:1]">star</span>
+                        <span class="material-symbols-outlined text-[18px] font-variation-[FILL:1]">star</span>
+                    </div>
+                    <p class="mb-4 text-sm font-medium italic text-[#0d141b] dark:text-slate-200">"S&amp;K did an
+                        amazing job with our kitchen renovation. They were on time, professional, and kept everything
+                        clean. Highly recommend!"</p>
+                    <div class="flex items-center gap-3 border-t border-[#e7edf3] pt-3 dark:border-slate-800">
+                        <div class="size-8 rounded-full bg-slate-300 bg-cover bg-center"
+                            data-alt="Portrait of happy customer Sarah J."
+                            style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB5XQtryXu-dVEMRRL8bA0d7ymmHD1CFRMQcFxdYHZ1ca2XONtLSvV3uWflChdjKkBYmYem3u6HrIwWCSkhXhaELBgq0e1eNJQf3iqi1938_V1Wq_MNctaGbxGg1wwr1pXFHf2PFfUECB1FWg3RG3xWQif6rV5hmk6Gdt4uQpSG4MfQKuNH186Ksl1DavsW__WGX7JgIhGCJpnsiB8C07BqfombrOPurOLjdxG0kl45jBzFjF7MFLY9ibQjQhoof1QMxIkqZy3nyJ-z')">
+                        </div>
+                        <p class="text-xs font-bold text-[#4c739a] dark:text-slate-400">Sarah J., Chicago</p>
+                    </div>
+                </div>
+                <!-- Review 2 -->
+                <div class="rounded-xl bg-background-light p-6 dark:bg-[#131b23]">
+                    <div class="mb-3 flex text-[#FFB400]">
+                        <span class="material-symbols-outlined text-[18px] font-variation-[FILL:1]">star</span>
+                        <span class="material-symbols-outlined text-[18px] font-variation-[FILL:1]">star</span>
+                        <span class="material-symbols-outlined text-[18px] font-variation-[FILL:1]">star</span>
+                        <span class="material-symbols-outlined text-[18px] font-variation-[FILL:1]">star</span>
+                        <span class="material-symbols-outlined text-[18px] font-variation-[FILL:1]">star</span>
+                    </div>
+                    <p class="mb-4 text-sm font-medium italic text-[#0d141b] dark:text-slate-200">"I had a huge IKEA
+                        order that I didn't want to deal with. The team came in and assembled everything in a few hours.
+                        Worth every penny."</p>
+                    <div class="flex items-center gap-3 border-t border-[#e7edf3] pt-3 dark:border-slate-800">
+                        <div class="size-8 rounded-full bg-slate-300 bg-cover bg-center"
+                            data-alt="Portrait of happy customer Mike T."
+                            style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAUMsII3LqnzAU9amugZvEh8euEq49_BppbwXiTLzvJ05AmYwltF9QAn3A0i23DsBbVfIcfV7u8M-CpII8La4CR_WUveucPxXDZ6gfshkQzocWedvEeiMnUw7oVoENDsc30c_MmAOxTmrwK2fe4c9nYoK69e2HCGBog0RHlQDjDFAQBGiIYUAmRWpXaPTwotMb_XsqCVAO3wNZUmXIcS_zdg8Sp7dimXLJq9rww9Slnt2A6_MqHlwUFF40FWo7RgvnqsxEMFDlBIzaW')">
+                        </div>
+                        <p class="text-xs font-bold text-[#4c739a] dark:text-slate-400">Mike T., Loop</p>
+                    </div>
+                </div>
+                <!-- Review 3 -->
+                <div class="rounded-xl bg-background-light p-6 dark:bg-[#131b23]">
+                    <div class="mb-3 flex text-[#FFB400]">
+                        <span class="material-symbols-outlined text-[18px] font-variation-[FILL:1]">star</span>
+                        <span class="material-symbols-outlined text-[18px] font-variation-[FILL:1]">star</span>
+                        <span class="material-symbols-outlined text-[18px] font-variation-[FILL:1]">star</span>
+                        <span class="material-symbols-outlined text-[18px] font-variation-[FILL:1]">star</span>
+                        <span class="material-symbols-outlined text-[18px] font-variation-[FILL:1]">star_half</span>
+                    </div>
+                    <p class="mb-4 text-sm font-medium italic text-[#0d141b] dark:text-slate-200">"Great service and
+                        fair pricing. They fixed some drywall issues and installed new light fixtures. Will definitely
+                        call them again."</p>
+                    <div class="flex items-center gap-3 border-t border-[#e7edf3] pt-3 dark:border-slate-800">
+                        <div class="size-8 rounded-full bg-slate-300 bg-cover bg-center"
+                            data-alt="Portrait of happy customer Elena R."
+                            style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCwaxWC2zd24bz9XiaHyj8csxt1yaVOkFVsjCjIO-l8mag63HsEh8-mAQgziQ1yMxO4aWJHDq5YirYmf3IOXHwhyFbFfqBgqY2Y8McYBmq2tVa4P-LqerbbynV-3i4VtZLyZSTlB5MxeD57LG3YdS9zx_PYE_F0T3QgkjDeBZA2bu2ZSLTvbNYaG2ucPMJsYfKLW02RBlJFt7BqghhBmQUJBwkOeeAiUzecrhIiM5TVR6L_vRdWAqiBSvPIs13bd5jxpfkCAV2KffL2')">
+                        </div>
+                        <p class="text-xs font-bold text-[#4c739a] dark:text-slate-400">Elena R., Lincoln Park</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Location Section -->
+    <section class="py-16 bg-background-light dark:bg-background-dark" id="contact">
+        <div class="mx-auto max-w-[960px] px-4">
+            <div class="overflow-hidden rounded-xl bg-white shadow-sm dark:bg-[#1a2632]">
+                <div class="grid md:grid-cols-2">
+                    <div class="p-8 md:p-12">
+                        <div
+                            class="mb-6 inline-flex size-12 items-center justify-center rounded-full bg-primary/10 text-primary">
+                            <span class="material-symbols-outlined">location_on</span>
+                        </div>
+                        <h2 class="mb-4 text-2xl font-bold text-[#0d141b] dark:text-white">Serving Chicago &amp; Suburbs
+                        </h2>
+                        <p class="mb-6 text-[#4c739a] dark:text-slate-400">We are centrally located in downtown Chicago
+                            and serve the entire metro area. Come visit us or give us a call.</p>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-3">
+                                <span class="material-symbols-outlined mt-0.5 text-primary">storefront</span>
+                                <div>
+                                    <p class="font-bold text-[#0d141b] dark:text-white">S&amp;K Assembly and Renovations
+                                    </p>
+                                    <p class="text-sm text-[#4c739a] dark:text-slate-400">205 N Michigan Ave, Suite
+                                        810<br />Chicago, IL 60601</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span class="material-symbols-outlined text-primary">schedule</span>
+                                <p class="text-sm text-[#4c739a] dark:text-slate-400">Open today: <span
+                                        class="font-bold text-[#0d141b] dark:text-white">8:00 AM - 6:00 PM</span></p>
+                            </div>
+                            <div class="pt-4">
+                                <a class="text-sm font-bold text-primary hover:underline" href="https://maps.google.com"
+                                    target="_blank">Get Directions →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative h-[300px] bg-slate-200 md:h-auto">
+                        <div class="h-full w-full bg-cover bg-center"
+                            data-alt="Map view of Chicago city center indicating business location"
+                            data-location="Chicago"><iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.307683965014!2d-87.62633162403577!3d41.88623957124077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e177a725e8c8d%3A0xa968c112b40f1e82!2s205%20N%20Michigan%20Ave%2C%20Chicago%2C%20IL%2060601%2C%20USA!5e0!3m2!1sen!2s!4v1767708770787!5m2!1sen!2s"
+                                width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                        <a href="https://www.google.com/maps/place/205+N+Michigan+Ave,+Chicago,+IL+60601,+USA/@41.8862396,-87.6263316,17z/data=!3m1!4b1!4m6!3m5!1s0x880e177a725e8c8d:0xa968c112b40f1e82!8m2!3d41.8862396!4d-87.6237567!16s%2Fg%2F11t3srdkxx?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D">
+                            <div class="absolute inset-0 flex items-center justify-center bg-black/20">
+                                <div
+                                    class="flex flex-col items-center justify-center gap-2 rounded-lg bg-white/90 p-4 shadow-lg backdrop-blur-sm dark:bg-black/80">
+                                    <span class="material-symbols-outlined text-4xl text-primary">map</span>
+                                    <span class="text-xs font-bold text-[#0d141b] dark:text-white">View on Map</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact / Quote Section -->
+    <section class="py-16 bg-white dark:bg-[#1a2632]" id="quote">
+        <div class="mx-auto max-w-[960px] px-4">
+            <div class="rounded-2xl bg-primary p-8 md:p-12 text-center text-white shadow-xl relative overflow-hidden">
+                <!-- Decorative background elements -->
+                <div class="absolute top-0 right-0 -mr-16 -mt-16 h-64 w-64 rounded-full bg-white/10 blur-3xl"></div>
+                <div class="absolute bottom-0 left-0 -ml-16 -mb-16 h-64 w-64 rounded-full bg-white/10 blur-3xl"></div>
+                <form action="">
+                <div class="relative z-10 max-w-2xl mx-auto">
+                    <h2 class="mb-4 text-3xl font-black md:text-4xl">Ready to upgrade your home?</h2>
+                    <p class="mb-8 text-lg font-medium text-white/90">Fill out the form below to get your free estimate,
+                        or give us a call directly.</p>
+                    <div
+                        class="grid gap-6 md:grid-cols-2 text-left bg-white/10 p-6 rounded-xl backdrop-blur-sm border border-white/20">
+                        <div class="md:col-span-2">
+                            <label class="block text-sm font-bold mb-2 text-white/90">What do you need help
+                                with?</label>
+                            <select
+                                class="w-full rounded-lg border-0 bg-white/90 py-3 px-4 text-[#0d141b] ring-2 ring-transparent focus:ring-white">
+                                <option>General Renovation</option>
+                                <option>Furniture Assembly</option>
+                                <option>Kitchen/Bath Remodel</option>
+                                <option>Other Repairs</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2 text-white/90">Name</label>
+                            <input
+                                class="w-full rounded-lg border-0 bg-white/90 py-3 px-4 text-[#0d141b] ring-2 ring-transparent focus:ring-white"
+                                placeholder="John Doe" type="text" />
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2 text-white/90">Phone Number</label>
+                            <input
+                                class="w-full rounded-lg border-0 bg-white/90 py-3 px-4 text-[#0d141b] ring-2 ring-transparent focus:ring-white"
+                                placeholder="(555) 123-4567" type="tel" />
+                        </div>
+                        <div class="md:col-span-2 mt-2">
+                            <button
+                                class="w-full rounded-lg bg-white py-3 px-6 text-base font-bold text-primary shadow-lg transition-transform hover:scale-[1.02]">Request
+                                Free Quote</button>
+                        </div>
+                    </div>
+                    <div class="mt-8 flex flex-col items-center justify-center gap-2 text-white/80">
+                        <p class="text-sm">Or call us directly at:</p>
+                        <a class="flex items-center gap-2 text-2xl font-black text-white hover:text-white/90"
+                            href="tel:7737060536">
+                            <span class="material-symbols-outlined">phone_in_talk</span>
+                            (773) 706-0536
+                        </a>
+                    </div>
+                    
+                </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="border-t border-[#e7edf3] bg-background-light py-12 dark:bg-background-dark dark:border-slate-800">
+        <div class="mx-auto max-w-[960px] px-4">
+            <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
+                <div class="flex flex-col gap-4">
+                    <div class="flex items-center gap-2">
+                        <div class="flex size-6 items-center justify-center rounded bg-primary text-white">
+                            <span class="material-symbols-outlined text-[16px]">construction</span>
+                        </div>
+                        <h4 class="font-bold text-[#0d141b] dark:text-white">S&amp;K Assembly</h4>
+                    </div>
+                    <p class="text-sm text-[#4c739a] dark:text-slate-400">Quality remodeling and assembly services in
+                        Chicago. Licensed, insured, and trusted.</p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h5 class="font-bold text-[#0d141b] dark:text-white">Contact</h5>
+                    <div class="flex flex-col gap-2 text-sm text-[#4c739a] dark:text-slate-400">
+                        <a class="hover:text-primary" href="tel:7737060536">(773) 706-0536</a>
+                        <a class="hover:text-primary" href="mailto:info@skassembly.com">info@skassembly.com</a>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h5 class="font-bold text-[#0d141b] dark:text-white">Address</h5>
+                    <p class="text-sm text-[#4c739a] dark:text-slate-400">
+                        205 N Michigan Ave, Suite 810<br />
+                        Chicago, IL 60601
+                    </p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h5 class="font-bold text-[#0d141b] dark:text-white">Hours</h5>
+                    <p class="text-sm text-[#4c739a] dark:text-slate-400">
+                        Mon-Fri: 8:00 AM - 6:00 PM<br />
+                        Sat: 9:00 AM - 4:00 PM<br />
+                        Sun: Closed
+                    </p>
+                </div>
+            </div>
+            <div
+                class="mt-12 border-t border-[#e7edf3] pt-8 text-center text-sm text-[#4c739a] dark:border-slate-800 dark:text-slate-500">
+                <p>© 2023 S&amp;K Assembly and Renovations. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
